@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCOPE OF VARIABLES</title>
+</head>
+<body>
+    <button onclick="calc()">CLICK ME!</button>
+    <p id="d1"></p>
+    <p id="d2"></p>
+    <script>
+        var a = 9 
+        
+    function calc()
+    {
+        var b = 9
+        document.getElementById("d1").innerHTML=a*b;
+    }
+     document.getElementById("d2").innerHTML=a;
+     document.getElementById("d1").innerHTML = b;
+    </script>
+</body>
+</html>
